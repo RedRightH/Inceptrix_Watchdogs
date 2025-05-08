@@ -69,3 +69,4 @@ void loop() {
 
   delay(1000); // Stability delay
 }
+// overall this code detects an object within the range of 20cm and then sends the trigger word "motion" on the Serial Output
