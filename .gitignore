@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+*.sqlite3
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets / model outputs
+dataset/
+models/
+outputs/
+
+# --- Arduino ---
+*.hex
+*.elf
+*.bin
+*.cpp.o
+*.d
+*.map
+*.eep
+*.sym
+*.lss
+
+*~.cpp
+*~.h
+*.ino.*
+*.tmp
+*.bak
+.arduinoIDE/
+
+# PlatformIO
+.pio/
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- macOS ---
+.DS_Store
+
+# --- Windows ---
+Thumbs.db
+desktop.ini
